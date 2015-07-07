@@ -1,47 +1,42 @@
-
-div.titlebox    {
-    background-image:url('california.jpg');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-color: #fff;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    border: solid 2px #5CACEE;
-    border-radius: 20px;
-    display: block;
-    position: relative;
-    height: auto;
-
+body {
+  background-image: url(astronaut.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-div.titlebox:after  {
-    content: "logo";
-    background-color: gray;
-    opacity: .5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
-}
-.header{
+.header-pic {
   width: 100%;
-  height: auto;
-  }
-.circular {
-  width: 300px;
-  height: 300px;
+  height: 250px;
+  margin: 0;
+}
 
--moz-border-radius: 150px;
-  -webkit-border-radius: 150px;
-    border-radius: 150px;
-  background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXINqnjYQ7iB-EkO-dYRHdOn-cLFpWJqOoy6aQPZiZioZ5C0Tp) no-repeat;
-  }
-
-  .left {
-  border-radius: 5px;
+.profile-pic {
+  position: relative;
+  top: -4rem;
+  left: 11rem;
+  width: 100px;
   border: 5px solid white;
-  height: 50px;
+  border-radius: 50%;
+}
+
+.left-column {
+  float: left;
+  width: 33.3%;
+  color: white;
+}
+
+.left-text {
+  position: relative;
+  left: 10rem;
+  width: 40%;
+  padding: 2rem;
+}
+
+.center-column {
+  float: left;
+  width: 33.3%;
+  margin: auto;
+  color: white;
 }
 
