@@ -1,14 +1,17 @@
 body {
-  background-image: url(astronaut.jpg);
+  background-image: url(images/astronaut.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+* {
+  margin:0px;
+  padding:0px;
+}
 .header-pic {
   width: 100%;
   height: 250px;
-  margin: 0;
 }
 
 .profile-pic {
